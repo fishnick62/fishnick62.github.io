@@ -2,14 +2,10 @@
 title: "Nick Chambers"
 image: "last light.jpg"
 links:
-  - label: LinkedIn
-    url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
   - label: GitHub
     url: "https://github.com/"
   - label: Email
-    url: "mailto:email@email.com"
+    url: "mailto:nchambrs@uw.edu"
 output:
   postcards::trestles
 ---
@@ -38,3 +34,10 @@ B.S. in Computer Science | September 2005 - May 2009
 **Google Brain** | Principal Investigator | January 2018 - Present
 
 **Netflix** | Research Scientist | June 2014 - December 2017
+
+```{r, eval=FALSE, echo=FALSE}
+install.packages("tinytex")
+library(tinytex)
+library(postcards)
+```
+
